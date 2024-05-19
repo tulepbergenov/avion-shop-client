@@ -7,8 +7,16 @@ const config: Config = {
   ],
   theme: {
     extend: {},
+    container: {
+      center: true,
+      padding: "24px",
+    },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("tailwindcss-text-rendering"),
+    require("@tailwindcss/forms"),
+  ],
 };
 
 export default config;

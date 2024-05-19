@@ -1,4 +1,5 @@
 import { appTitle } from "@/shared/libs";
+import { Container } from "@/shared/ui-kit";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,9 +9,11 @@ export const metadata: Metadata = {
 const NotFound = () => {
   return (
     <section>
-      <header>
-        <h1>Not found</h1>
-      </header>
+      <Container>
+        <header>
+          <h1>Not found</h1>
+        </header>
+      </Container>
     </section>
   );
 };
