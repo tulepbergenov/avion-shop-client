@@ -1,6 +1,6 @@
-import { type Viewport, type Metadata } from "next";
 import "@/app/styles/index.css";
 import { appTitle } from "@/shared/libs";
+import { type Metadata, type Viewport } from "next";
 
 export const metadata: Metadata = {
   title: appTitle(),
